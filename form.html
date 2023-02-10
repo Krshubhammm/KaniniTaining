@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+    <script>
+      function fetch() {
+        name = document.f1.t1.value;
+        lastname = document.f1.t2.value;
+        phoneNumber = document.f1.t3.value;
+        email = document.f1.t4.value;
+        document.getElementById('p1').innerHTML = 'Welcome' +" "+ name.bold() +" "+ lastname.bold()
+        document.getElementById('p2').innerHTML = 'My Phone Number' +" "+ phoneNumber.bold()
+        document.getElementById('p3').innerHTML = 'My Email-id' +" "+ email.bold()
+        
+      
+      }
+    </script>
+  </head>
+  <body>
+    <fieldset>
+      <h1 style="text-align: center">Registration Form In Html</h1>
+      <form name="f1" method="get" autocomplete="on">
+        <table>
+          <tr>
+            <td><label for="t1">Enter Your First Name</label></td>
+            <td>
+              <input type="text" placeholder="Name" name="t1" />
+            </td>
+          </tr>
+          <tr>
+            <td>Enter Your Last Name:</td>
+            <td>
+              <input type="text" placeholder="Name" name="t2" />
+            </td>
+          </tr>
+          <tr>
+            <td>Phone Number:</td>
+            <td>
+              <input type="phone" placeholder="7488******" name="t3"  />
+            </td>
+          </tr>
+          <tr>
+            <td>Email Id:</td>
+            <td>
+              <input type="email" placeholder="example1@*8"  name="t4" />
+            </td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td>
+              <input type="password" placeholder="Password"  />
+            </td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" name="gender" />Male
+              <input type="radio" name="gender" />Female
+            </td>
+          </tr>
+          <tr>
+            <td>Date of Birth:</td>
+            <td>
+              <input type="date" />
+            </td>
+          </tr>
+          <tr>
+            <td>Hobbies:</td>
+            <td>
+              <input type="checkbox" singing />singing
+              <input type="checkbox" Dancing />Dancing
+              <input type="checkbox" Collecting Coins />Collecting Coins
+            </td>
+          </tr>
+          <tr>
+            <td>Education Qualification:</td>
+            <td>
+              <select>
+                <option>Select Option</option>
+                <option>10</option>
+                <option>10+2</option>
+                <option>Graduation</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Enter Your Address:</td>
+            <td>
+              <textarea rows="5" col="17" placeholder="Address"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>Experience:</td>
+            <td>
+              <select>
+                <option>Select Option</option>
+                <option>0-1 year</option>
+                <option>2-4 year</option>
+                <option>4-6 year</option>
+              </select>
+            </td>
+          </tr>
+          <br /><br />
+          <tr>
+            <td>
+              <input type="button" value="Submit" onclick="fetch()" >
+            </td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+  </body>
+</html>

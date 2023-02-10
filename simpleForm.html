@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <script>
+      function fetch(){
+        window.alert("your book response is submitted")
+      }
+    </script>
+</head>
+<body>
+    <h2>A Simple Form</h2>
+    <h3> Form Fundamentals</h3>
+    <p style="font-size:48px">
+      &#128512; &#128516; &#128525; &#128151;
+      </p>
+      
+    <fieldset>
+        <legend>Customer Info</legend>
+        <tr>
+            <td><label for="t1">Name</label></td>
+            <td>
+              <input type="text" placeholder="Name" name="t1" />
+            </td>
+            <br><br>
+          <tr>
+            <td>Telephone:</td>
+            <td>
+              <input type="phone" placeholder="Pattern 234-567-8910" name="t3"  />
+            </td>
+          </tr>
+          <br><br>
+          <tr>
+            <td>Email Address:</td>
+            <td>
+              <input type="email" placeholder="Enter your email address"  name="t4" />
+            </td>
+          </tr>
+    </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Books</legend>
+            <tr>
+                <td>
+                  <input type="text" placeholder="" name="" />
+                </td>
+              <tr>
+                <td>Quantity(Maximum 5):</td>
+                <input type = "number" name="num" min = "1" max = "5">
+              </tr>
+              <br><br>
+            </form>  
+        </fieldset>
+         <input type="button" value="Submit" onclick="fetch()" >
+               
+</body>
+</html>

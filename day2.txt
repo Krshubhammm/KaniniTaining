@@ -1,0 +1,3 @@
+2 methods in form - get and post(secure ,more data) in html
+action- the date to be 
+document.f1.gender.value

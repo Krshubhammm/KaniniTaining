@@ -1,0 +1,27 @@
+look back ip address (127.0.0.1:5000) as it is useful for testing
+2 port hardware and software which is used for data transmision(5000)
+65000 software port is used 
+port number 80 is default port used for http transmission
+port number 443 is default port used for http transmission
+size should be little in favicon
+how should we use meta tag for  advertisement.when we send any link through whatsapp it show the image .how it happen
+000 web host
+caniuse.com
+liveweave,code beautify
+Table
+image map
+target attribute will
+_blank(load in seperate page )
+_top(go to the root element)
+_parent(immediate previous manner)
+_self(in same page)
+we can open it in a new attribute by giving the name of the particular element(name)
+i frame(we can load any type of content)
+same page navigation
+ASSIGNMENT
+
+diff between html and html 5
+usage of meta tag  to be included in image in social media
+
+
+
